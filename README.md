@@ -6,4 +6,4 @@ The project was created with:
 + PHPMailer (https://github.com/PHPMailer/PHPMailer);
 + methodology BEM (https://ru.bem.info/methodology/).
 
-![Project screenshot](https://github.com/darkus007/Axit/blob/master/Axit.jpg)
+![Project screenshot](https://github.com/darkus007/Axit/blob/master/Axit%20PSD.jpg)

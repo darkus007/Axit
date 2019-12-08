@@ -1,0 +1,22 @@
+$main_color: #ff8b38;
+$transition-time: 0.5s;
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1110px;
+    &_flex-sb {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/devider';
+@import 'blocks/button';
+@import 'blocks/social';

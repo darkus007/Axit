@@ -1,0 +1,13 @@
+.button {
+    margin-top: 44px;
+    width: 135px;
+    height: 42px;
+    background: none;
+    color: #fff;
+    transition: $transition-time all;
+    &:hover {
+        cursor: pointer;
+        color: $main_color;
+        border-color: $main_color;
+    }
+}

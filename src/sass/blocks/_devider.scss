@@ -1,0 +1,9 @@
+.devider {
+    width: 64px;
+    height: 2px;
+    background-color: $main_color;
+    &_white {
+        margin-top: 36px;
+        background-color: #fff;
+    }
+}
