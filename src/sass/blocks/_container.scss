@@ -1,0 +1,15 @@
+
+.container {
+    margin: 0 auto;
+    width: 1110px;
+    &_flex-sb {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &_flex-fs {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
