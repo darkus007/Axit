@@ -25,6 +25,24 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-google:before {
+  content: "\e901";
+}
+.icon-light-bulb:before {
+  content: "\e900";
+}
+.icon-keyboard:before {
+  content: "\e955";
+}
+.icon-power:before {
+  content: "\e9b5";
+}
+.icon-cloud-download:before {
+  content: "\e9c2";
+}
+.icon-cloud-upload:before {
+  content: "\e9c3";
+}
 .icon-google-plus:before {
   content: "\ea8b";
 }
