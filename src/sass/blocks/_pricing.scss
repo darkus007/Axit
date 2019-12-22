@@ -1,0 +1,77 @@
+.pricing {
+    padding: 108px 0px 96px 0px;
+    min-height: 883px;
+    background-color: #f5f5f5;
+    &__wrapper {
+        margin-top: 80px;
+        height: 497px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    &__item {
+        width: 343px;
+        height: 464px;
+        transition: $transition-time;
+    }
+    &__option {
+        padding-top: 14px;
+        margin-bottom: 2px;
+        height: 59px;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        color: #ffffff;
+        background-color: #333333;
+    }
+    &__price {
+        height: 100px;
+        font-family: Raleway;
+        font-size: 35px;
+        font-weight: bold;
+        text-align: center;
+        color: #ffffff;
+        background-color: #333333;
+        & span {
+            font-size: 94px;
+        }
+    }
+    &__descr {
+        padding-top: 21px;
+        height: 50px;
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.5);
+        background-color: #333333;
+    }
+    &__subdescr {
+        padding-top: 10px;
+        height: 5px;
+        background-color: #ff8b38;
+        overflow: hidden;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+        color: #ffffff;
+        transition: $transition-time;
+    }
+    &__options {
+        padding: 0;
+        height: 240px;
+        width: 343px;
+        background-color: #fff;
+        list-style-type: none;
+        text-align: center;
+        & li {
+            padding-top: 9px;
+            height: 40px;
+            border: solid 1px #f5f5f5;
+            font-size: 14px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #86878b;
+        }
+    }
+}
