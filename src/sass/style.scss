@@ -1,6 +1,10 @@
 $main_color: #ff8b38;
 $transition-time: 0.5s;
 
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+@import 'libs/icons';
+
 * {
     font-family: 'Open Sans', sans-serif;
 }
