@@ -6,10 +6,15 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        flex-wrap: wrap;
     }
     &_flex-fs {
         display: flex;
         justify-content: flex-start;
         align-items: flex-start;
+        flex-wrap: wrap;
+    }
+    &_flex-media {
+        margin: 0 auto;
     }
 }
